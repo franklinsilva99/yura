@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #2F4A3D;
+  --color-moss: #5E7D69;
+  --color-sage: #8FA996;
+  --color-mist: #DCE5DD;
+  --color-sand: #F4EFE8;
+  --color-clay: #BFAE9A;
+  --color-bark: #8C7A66;
+  --color-alert: #C98B6B;
+  --font-display: "Cormorant Garamond", serif;
+  --font-sans: "Nunito", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-sand text-forest font-sans antialiased;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-moss;
+  }
+}
