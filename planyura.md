@@ -610,12 +610,12 @@ Luego, Supabase → **Authentication → URL Configuration → Site URL** = la U
 
 | # | Bloque | Min | Entregable | ✔ |
 |---|---|---|---|---|
-| 1 | Setup + deploy vacío | 30 | §10 completo, la web base en Vercel | ☐ |
-| 2 | Layout + Auth | 25 | Tema, navegación responsiva, registro y login funcionando | ☐ |
-| 3 | Mi planta | 50 | Setup de planta, botones, aviso de riego, calendario, galería | ☐ |
-| 4 | Bienestar | 40 | Registro con upsert, gráfico semanal, tarjeta de apoyo, disclaimer | ☐ |
-| 5 | Comunidad | 45 | Publicar, feed, likes, comentarios | ☐ |
-| 6 | Perfil + seguir | 15 | `/u/:username`, contadores, seguir | ☐ |
+| 1 | Setup + deploy vacío | 30 | §10 completo, la web base en Vercel | ✔ |
+| 2 | Layout + Auth | 25 | Tema, navegación responsiva, registro y login funcionando | ✔ |
+| 3 | Mi planta | 50 | Setup de planta, botones, aviso de riego, calendario, galería | ✔ |
+| 4 | Bienestar | 40 | Registro con upsert, gráfico semanal, tarjeta de apoyo, disclaimer | ✔ |
+| 5 | Comunidad | 45 | Publicar, feed, likes, comentarios | ✔ |
+| 6 | Perfil + seguir | 15 | `/u/:username`, contadores, seguir | ✔ |
 | 7 | Cierre | 15 | Datos demo, prueba en celular, keep-alive, deploy final | ☐ |
 
 **Orden de recorte si falta tiempo** (de lo primero a dejar fuera hacia lo último):
