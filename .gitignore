@@ -31,3 +31,4 @@ dist-ssr
 # supabase cli
 supabase/.temp
 /yura.jpeg
+.vercel
