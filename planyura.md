@@ -616,7 +616,7 @@ Luego, Supabase → **Authentication → URL Configuration → Site URL** = la U
 | 4 | Bienestar | 40 | Registro con upsert, gráfico semanal, tarjeta de apoyo, disclaimer | ✔ |
 | 5 | Comunidad | 45 | Publicar, feed, likes, comentarios | ✔ |
 | 6 | Perfil + seguir | 15 | `/u/:username`, contadores, seguir | ✔ |
-| 7 | Cierre | 15 | Datos demo, prueba en celular, keep-alive, deploy final | ☐ |
+| 7 | Cierre | 15 | Datos demo, prueba en celular, keep-alive, deploy final | ◐ |
 
 **Orden de recorte si falta tiempo** (de lo primero a dejar fuera hacia lo último):
 1. Edición de avatar → 2. Borrar comentarios → 3. Navegar meses en el calendario (solo el mes actual) → 4. Navegar semanas en el gráfico (solo la actual) → 5. "Compartir en comunidad" desde la galería.
