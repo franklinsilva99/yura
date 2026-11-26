@@ -2,7 +2,7 @@ import { addDays, differenceInCalendarDays } from 'date-fns'
 import { fromDay, today, toDay } from './dates'
 import type { PlantLog, PlantLogKind } from './types'
 
-export const PLANT_TYPES = ['Echeveria', 'Haworthia', 'Aloe', 'Crassula', 'Sedum', 'Cactus', 'Otra'] as const
+export const PLANT_TYPES = ['Suculenta', 'Echeveria', 'Haworthia', 'Aloe', 'Crassula', 'Sedum', 'Cactus', 'Otra'] as const
 
 export const LOG_META: Record<PlantLogKind, { emoji: string; label: string; done: string }> = {
   regue: { emoji: '💧', label: 'La regué', done: '¡Riego registrado!' },
