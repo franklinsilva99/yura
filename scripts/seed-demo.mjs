@@ -29,7 +29,7 @@ async function upload(u, folder, name) {
   return u.c.storage.from('yura').getPublicUrl(path).data.publicUrl
 }
 
-async function plantFor(u, name, type, photo, created_at) {
+async function plantFor(u, name, type, photo) {
   const existing = must(await u.c.from('plants').select('*').eq('owner_id', u.id).maybeSingle(), 'planta')
   if (existing) return { plant: existing, fresh: false }
   const photo_url = await upload(u, 'plant', photo)
